@@ -13,7 +13,10 @@
   "keywords": [
     "hapi",
     "hapi-plugin",
-    "routing"
+    "hapi.js",
+    "hapijs",
+    "routing",
+    "routes"
   ],
   "author": "Tyler Garlick <tjgarlick@gmail.com>",
   "license": "MIT",
@@ -23,12 +26,15 @@
   "homepage": "https://github.com/TylerGarlick/hapi-plugin-router#readme",
   "devDependencies": {
     "code": "^2.0.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "hapi": "^11.1.2"
+  },
+  "peerDependencies": {
+    "hapi": "11.x"
   },
   "dependencies": {
     "callsite": "^1.0.0",
     "glob": "^6.0.1",
-    "hapi": "^11.1.2",
     "lodash": "^3.10.1"
   }
 }
