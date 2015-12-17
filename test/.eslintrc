@@ -1,0 +1,11 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "arrowFunctions": true,
+    "templateStrings": true
+  }
+}
