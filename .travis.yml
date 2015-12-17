@@ -1,5 +1,12 @@
 language: node_js
 node_js:
-  - "5.2"
-  - "5.1"
-  - "4.2.2"
+- '5.2'
+- '5.1'
+- 4.2.2
+deploy:
+  provider: npm
+  email: "tjgarlick@gmail.com"
+  api_key:
+    secure: wrclP26CQm7I/Elotd2rcnG6G5QhpBMAnQmsZ6fOG0bA0fJTGzZat4EqW9d7L1ElQwJQuwz1GFyPn6cnv2ACWIb+RsimCLjXnnUmnpZkbq5ayitShsWWTiMl3LYbs4LrHxXWTxGiIbA2NCAbsK2zG6+xvXmTs9VvP0AiHfMAGeYVnwE5YbSR/0eDJW473rNaHvnGk+d6iiv1xTE1LBFhPkp6Lt7TYU8Gj84bQ6kfIlMczOcWzYkf3SJR1H7bMeGBM6/Vow8cR/uXwcy4DOEwiLgvR0DHtY+PBjCfMmaJOhQ7jTSIWBkDkgXnplzBiktfJAivDcv2pBKo343hMyPjF6eggFZzm/qEDV7QlQVYVLxBZUSibCnX2YjLW06Iklv8KUZhugntiJIo9AJXHBd1N81pcK4SsArcihVLvlzi3hYWz/TCWzQjnENnYGv9q62U2e232uc9yWj4Mc0QSyYTnGVh4SxcFk+RmVRKb3FjEGorvNXqCLXnsocbUDrRQWqPVhegfGms+Ik6XbmZ0VQxz6MFazKYtxR33jt5OnE6f6erLboS2nbjcuBfhtRGklFLUDVE56xYB7mr4XeYB+5uiG2ilujQFuoluDVbIEWSc9CYK9qu81MnwrNpspbWz+9mnx7kHCZ/zMxbw8hs0m7QmPgOr82VFKpfVbetVyzcWGM=
+  on:
+    tags: true
