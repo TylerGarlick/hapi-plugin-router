@@ -1,6 +1,6 @@
 {
   "name": "hapi-plugin-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Routing focused at the plugin level",
   "main": "index.js",
   "scripts": {
